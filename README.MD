@@ -105,3 +105,7 @@ http://localhost:8089/oauth/token
 
 3. 根据获取的token请求第四步的资源
 ![根据token获取资源](./files\根据token请求资源-1.PNG)
+
+
+
+# 使用密码模式
