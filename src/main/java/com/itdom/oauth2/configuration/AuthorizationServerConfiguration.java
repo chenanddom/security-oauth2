@@ -53,6 +53,6 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
                 .scopes("all")
                 //指定的授权莫斯可以是"implicit","refresh_token", "password", "authorization_code"
 //                .authorizedGrantTypes("authorization_code") ;
-                .authorizedGrantTypes("password","refresh_token") ;
+                .authorizedGrantTypes("password","refresh_token","authorization_code") ;
     }
 }
